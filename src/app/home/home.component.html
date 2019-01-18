@@ -1,0 +1,9 @@
+<div class="starwars">
+  
+    <ul *ngIf="charactar | async as charactar">
+      <!-- <li *ngFor="let user of users"> -->
+        <h2> NAME: {{charactar.name}}</h2>
+      <!-- </li> -->
+    </ul>
+
+</div>
